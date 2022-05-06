@@ -1,0 +1,197 @@
+body{
+    background-color: #e7d0b4;
+    text-align: center;
+
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+/*título no topo da página*/
+h1{
+    font-size: 50pt;
+    font-family: 'Fredoka One', cursive;
+    color: white;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+canvas{
+    border: 2px solid black;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url("ceuazul.jpg");
+}
+
+div#curriculo{
+    border: 2px solid black;
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    background-color: #fae1d4;
+}
+
+#topoPagina{
+    background-color: #fae1d4;
+    border:2px solid black;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 500px;
+    color: #000000;
+    font-size: 20pt;
+    margin-right: auto;
+    margin-left:auto;
+}
+#menu{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 2px;
+    padding: 0;
+
+}
+/*configurações do menu que existe nas 3 páginas*/
+#menu div{
+    background-color:white;
+    padding-left:10px;
+    padding-right:10px;
+    border: 2px solid;
+    border-color: #000300;
+    font-weight: bold ;
+    font-family: "Arial Black";
+    height: 50px;
+    width: 100px;
+    color: black;
+}
+
+#menu li{
+    padding-left: 10px;
+}
+#menu div:hover{
+    border-color: red;
+}
+#menu div:active{
+    background-color: darkred;
+}
+#menu a{
+    text-decoration: none;
+}
+
+div#curriculo{
+    width: 500px;
+    height: 500px;
+}
+#curriculo h2{
+    margin-top: 0;
+    text-align: center;
+    font-size: 30pt;
+}
+#curriculo p{
+    text-align: justify;
+    font-size: 18pt;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+div.sobreJogo{
+    width: 850px;
+    font:20pt "Arial";
+    text-align: justify;
+    border: 2px solid black;
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+div.sobreJogo h2{
+    text-align: center;
+    color: #ffffff;
+    display: table-cell;
+    vertical-align: top;
+}
+.sobreJogo li{
+    padding: 10px;
+}
+/* título do jogo */
+div#wheel{
+    background-color: #fae1d4;
+    border:2px solid black;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 500px;
+    color: #000000;
+    font-size: 20pt;
+    margin-right: auto;
+    margin-left:auto;
+    margin-bottom: 5px;
+}
+
+/* configuração padrão da página */
+div.jogabilidade{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5px;
+
+
+}
+.jogabilidade img{
+    margin-left: 5px;
+    align-self: stretch;
+
+}
+div#comojogarInterno{
+    width: 800px;
+    margin-top: 5px;
+    font:20pt "Arial";
+    text-align: justify;
+    border: 2px solid black;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 350px;
+}
+div.comojogarInterno h2{
+    text-align: center;
+}
+.comojogarInterno li{
+    padding: 10px;
+}
+
+/* Guia avançado*/
+div.avancado{
+    border: 2px solid black;
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    font-size: 20pt;
+}
+/* configurações abaixo do avançado*/
+div.mecanicas{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: wheat;
+}
+/* responsividade*/
+div.sobreJogo2{
+    width: 100%;
+    font:20pt "Arial";
+    text-align: justify;
+    border: 2px solid black;
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+/* fundo de tijolos*/
+div.fundo{
+   background-image: url("paredeintacta.png");
+}
