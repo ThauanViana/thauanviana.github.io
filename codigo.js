@@ -1104,13 +1104,15 @@ function desenharPesos(){
                         barra_de_peso_carregado.larguraVazia = barra_de_peso_carregado.larguraCheia //evitar que a barra de peso fique acima dos 150
                         boostFunciona = false;
 
+
                     }else{
                         barra_de_peso_carregado.larguraVazia += peso.aumentoBarraPeso;            //incremento na barra de peso
                         boostFunciona = true;
                     }
                                                                                       //parametro para habilitar o boost
                     if (barra_de_peso_carregado.larguraVazia >= barra_de_peso_carregado.larguraCheia) {
-                        boostFunciona = false;                                                //parâmetro para desativar o boost se a barra estiver cheia ou mais
+                        boostFunciona = false//parâmetro para desativar o boost se a barra estiver cheia ou mais
+
                     }else{
                         boostFunciona = true;
                     }
@@ -1128,9 +1130,9 @@ function desenharPesos(){
                         }
                     }
                     if (barra_de_peso_carregado.larguraVazia >= barra_de_peso_carregado.larguraCheia) {
-                        boostFunciona = false;                                                //parâmetro para desativar o boost se a barra estiver cheia ou mais
+                        boostFunciona = false;//parâmetro para desativar o boost se a barra estiver cheia ou mais
                     }else{
-                        boostFunciona = false;
+                        boostFunciona = true;
                     }
                 }
             }
